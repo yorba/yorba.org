@@ -1,0 +1,4 @@
+This help HTML was generated with:
+
+   gnome-doc-tool css -o style.css /path/to/geary/help/C/index.page
+   gnome-doc-tool html --css-file=style.css --copy-graphics /path/to/geary/help/C
