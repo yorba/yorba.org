@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns:str="http://exslt.org/strings">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Search</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="">
+<div class="headbar"><div class="linktrails"><div class="linktrail">
+<a class="linktrail" href="index.html"><span class="media media-image"><img src="figures/geary.svg" alt=""></span>  
+Geary</a> › <a class="linktrail" href="index.html#overview">Using Geary</a> » </div></div></div>
+<div class="body">
+<div class="navbar">
+<a class="navbar-prev" href="preferences.html">Previous</a>  |  <a class="navbar-next" href="star.html">Next</a>
+</div>
+<div class="header"><h1 class="title">Search</h1></div>
+<div class="contents">
+<p class="p">Geary supports a per-account full text search.  To start a search, select a folder associated
+	with the account you'd like to search against.  Then click the search box in the toolbar (or
+	press <span xmlns:e="http://projectmallard.org/experimental/" class=" keyseq"><span class=" key">Ctrl</span>+<span class=" key">S</span></span>) and start typing.  Results will appear after a brief delay.</p>
+<p class="p">The full text search includes email text, email addresses (to, from, and cc), subject lines and
+	attachment filenames.</p>
+<p class="p">Keywords that match your search are highlighted in the message view.  Geary will match different
+	forms of the same word, for example searching for "walk" will also match "walking" and "walked."</p>
+<div class="topiclinks"></div>
+</div>
+<div class="section" id="">
+<div class="header"><h2 class="title">Search operators</h2></div>
+<div class="contents">
+<p class="p first-child">Geary supports the following operators to limit the scope of searches:</p>
+<div class="table"><table class="table" style="border-style: solid;">
+<tr>
+<td><p class="p first-child"><span xmlns:e="http://projectmallard.org/experimental/" class=" input">attachment:<span class=" var">filename</span></span></p></td>
+<td><p class="p first-child">Finds messages with attachments whose name matches <span xmlns:e="http://projectmallard.org/experimental/" class=" var">filename</span>.</p></td>
+</tr>
+<tr>
+<td style="border-top-style: solid;"><p class="p first-child"><span xmlns:e="http://projectmallard.org/experimental/" class=" input">bcc:<span class=" var">recipient</span></span></p></td>
+<td style="border-top-style: solid;"><p class="p first-child">Finds messages where <span xmlns:e="http://projectmallard.org/experimental/" class=" var">recipient</span> matches the BCC header.</p></td>
+</tr>
+<tr>
+<td style="border-top-style: solid;"><p class="p first-child"><span xmlns:e="http://projectmallard.org/experimental/" class=" input">body:<span class=" var">text</span></span></p></td>
+<td style="border-top-style: solid;"><p class="p first-child">Finds messages whose body contains <span xmlns:e="http://projectmallard.org/experimental/" class=" var">text</span>.</p></td>
+</tr>
+<tr>
+<td style="border-top-style: solid;"><p class="p first-child"><span xmlns:e="http://projectmallard.org/experimental/" class=" input">cc:<span class=" var">recipient</span></span></p></td>
+<td style="border-top-style: solid;"><p class="p first-child">Finds messages where <span xmlns:e="http://projectmallard.org/experimental/" class=" var">recipient</span> matches the CC header.</p></td>
+</tr>
+<tr>
+<td style="border-top-style: solid;"><p class="p first-child"><span xmlns:e="http://projectmallard.org/experimental/" class=" input">from:<span class=" var">sender</span></span></p></td>
+<td style="border-top-style: solid;"><p class="p first-child">Finds messages where <span xmlns:e="http://projectmallard.org/experimental/" class=" var">sender</span> matches the From header.</p></td>
+</tr>
+<tr>
+<td style="border-top-style: solid;"><p class="p first-child"><span xmlns:e="http://projectmallard.org/experimental/" class=" input">subject:<span class=" var">text</span></span></p></td>
+<td style="border-top-style: solid;"><p class="p first-child">Finds messages whose subject contains <span xmlns:e="http://projectmallard.org/experimental/" class=" var">text</span>.</p></td>
+</tr>
+<tr>
+<td style="border-top-style: solid;"><p class="p first-child"><span xmlns:e="http://projectmallard.org/experimental/" class=" input">to:<span class=" var">recipient</span></span></p></td>
+<td style="border-top-style: solid;"><p class="p first-child">Finds messages where <span xmlns:e="http://projectmallard.org/experimental/" class=" var">sender</span> matches the To, CC, or BCC header.</p></td>
+</tr>
+</table></div>
+<p class="p">As a special case, the <span xmlns:e="http://projectmallard.org/experimental/" class=" input">bcc</span>, <span xmlns:e="http://projectmallard.org/experimental/" class=" input">cc</span>, <span xmlns:e="http://projectmallard.org/experimental/" class=" input">from</span>, and
+	<span xmlns:e="http://projectmallard.org/experimental/" class=" input">to</span> operators support <span xmlns:e="http://projectmallard.org/experimental/" class=" input">me</span> as their argument, which searches for the
+	account's email address in the appropriate context.</p>
+<div class="topiclinks"></div>
+</div>
+</div>
+<div class="section autolinkssection">
+<div class="header"><h2 class="title">Further Reading</h2></div>
+<div class="autolinks">
+<div class="title"><span>More About</span></div>
+<ul><li class="autolink"><a href="index.html#overview">Using Geary</a></li></ul>
+</div>
+</div>
+</div>
+<div class="footbar"><div class="copyrights"></div></div>
+</body>
+</html>
