@@ -8,7 +8,23 @@ Donate
 If you'd like to support Yorba's software projects, we welcome donations.  You
 can use any of these methods:
 
- * Send Paypal donations to `paypal@yorba.org`
+ * Send money via [Paypal](https://www.paypal.com/) to `paypal@yorba.org` or
+   simply use this donation button:
+
+<div class="donate-button">
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post"
+target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="M7TTJK2D4R3MS" />
+<input type="image"
+src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0"
+name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0"
+src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"
+/>
+</form>
+</div>
+
  * Donate Bitcoin: `1BLfDsWERHgPm5ZpFgVAMuTuohEYaZFS87`
  * If you want to donate by check, please make it out to *Yorba Foundation*.
    Mail the check to:
