@@ -27,13 +27,14 @@ src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"
 </div>
 
  * Donate Bitcoin: `1BLfDsWERHgPm5ZpFgVAMuTuohEYaZFS87`
+ * [Flattr us](https://flattr.com/thing/1331044/Donate)
  * If you want to donate by check, please make it out to *Yorba Foundation*.
    Mail the check to:
 
        Yorba Foundation
-       580 California St.
-       16th Floor
-       San Francisco CA 94104
+       520 Geary St.
+       #411
+       San Francisco CA 94102
        USA
 
  * If the above methods aren't suitable for you, we also accept wire transfers.
